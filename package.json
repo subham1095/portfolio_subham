@@ -1,0 +1,31 @@
+{
+  "name": "portfolio_subham",
+  "version": "1.0.0",
+  "description": "Starting my new project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subham1095/portfolio_subham.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subham1095/portfolio_subham/issues"
+  },
+  "homepage": "https://github.com/subham1095/portfolio_subham#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  }
+}
